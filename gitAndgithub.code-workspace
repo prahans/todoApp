@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Web Development/javaScript project/todoApp/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "gitAndgithub"
+	}
+}

@@ -1,7 +1,8 @@
 let inputBox = document.querySelector("#input-box");
 let btn = document.querySelector("button");
-let listContainer = document.querySelector("#list-container")
-btn.addEventListener("click", () => {
+let listContainer = document.querySelector("#list-container");
+
+function addTask(){
     if(inputBox.value == ""){
         alert("You must enter something");
     }else{
@@ -15,10 +16,16 @@ btn.addEventListener("click", () => {
 
     inputBox.value = "";
     saveData();
+}
+
+btn.addEventListener("click", addTask());
+inputBox.addEventListener("keydown", (e) => {
+    if(e.key === "Enter"){
+        addTask();
+    }
 });
 
 listContainer.addEventListener("click", function(e){
-    console.log(e.target.tagName);
     if(e.target.tagName == "LI"){
         e.target.classList.toggle("checked");
         saveData();
