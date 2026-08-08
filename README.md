@@ -58,14 +58,12 @@ Open `index.html` in your preferred web browser.
 
 ## 📸 Screenshot
 
-```html
 <p align="center">
   <img src="./screenshots/largeScreen.png" alt="ToDo App" width="850" />
 </p>
 <p align="center">
   <img src="./screenshots/smallScreen.png" alt="ToDo App" width="850" />
 </p>
-```
 
 ---
 
