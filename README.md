@@ -62,7 +62,7 @@ Open `index.html` in your preferred web browser.
   <img src="./screenshots/largeScreen.png" alt="ToDo App" width="850" />
 </p>
 <p align="center">
-  <img src="./screenshots/smallScreen.png" alt="ToDo App" width="425" />
+  <img src="./screenshots/smallScreen.png" alt="ToDo App" width="325" height="800" />
 </p>
 
 ---
